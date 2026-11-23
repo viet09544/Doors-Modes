@@ -38,7 +38,7 @@ intro:Destroy()
 
 coroutine.wrap(function()
     while true do
-        task.wait(15)
+        task.wait(105)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Smile.luau"))()
@@ -50,7 +50,7 @@ coroutine.wrap(function()
         task.wait(math.random(20, 30))
 
     while true do
-        task.wait(25)
+        task.wait(205)
 
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
@@ -65,7 +65,7 @@ coroutine.wrap(function()
         task.wait(math.random(30, 50))
 
     while true do
-        task.wait(45)
+        task.wait(245)
 
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
@@ -80,7 +80,7 @@ coroutine.wrap(function()
         task.wait(math.random(10, 25))
 
     while true do
-        task.wait(75)
+        task.wait(275)
 
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
@@ -94,7 +94,7 @@ coroutine.wrap(function()
         task.wait(math.random(30, 100))
 
     while true do
-        task.wait(75)
+        task.wait(475)
 
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
@@ -108,7 +108,7 @@ coroutine.wrap(function()
 task.wait(math.random(20, 30))
 
     while true do
-        task.wait(95)
+        task.wait(195)
 
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
