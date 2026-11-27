@@ -1,3 +1,6 @@
+--[=[ 
+     Mode by me(viet09544)
+]=]--
 -- Run script only once.
 if _G.TheAbyssProtocolLoaded then
     warn("The Abyss Protocol is already loaded and running!")
@@ -46,74 +49,51 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/ref
 end)()
 
 coroutine.wrap(function()
-    
-        task.wait(math.random(20, 30))
-
+    task.wait(math.random(20, 30))
     while true do
         task.wait(205)
-
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/ScaryEntity.luau"))()
-   
+   end
+end)()
+
+coroutine.wrap(function()
+       task.wait(math.random(30, 50))
+   while true do
+        task.wait(245)
+       game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Phantom.luau"))()
     end
 end)()
 
 coroutine.wrap(function()
-    
-        task.wait(math.random(30, 50))
-
-    while true do
-        task.wait(245)
-
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Phantom.luau"))()
-     
-     end
-end)()
-
-coroutine.wrap(function()
-    
-        task.wait(math.random(10, 25))
-
+    task.wait(math.random(10, 25))
     while true do
         task.wait(275)
-
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Glitcher.luau"))()
-     end
+    end
 end)()
 
 coroutine.wrap(function()
-    
-        task.wait(math.random(30, 100))
-
+    task.wait(math.random(30, 100))
     while true do
         task.wait(475)
-
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Void.luau"))() 
     end
 end)()
 
 coroutine.wrap(function()
-    
-task.wait(math.random(20, 30))
-
+    task.wait(math.random(20, 30))
     while true do
         task.wait(195)
-
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/TheDarknessEyes.luau"))()
- 
-     end
+    end
 end)()
